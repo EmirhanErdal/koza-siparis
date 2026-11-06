@@ -1,6 +1,6 @@
 /* Koza Sipariş servis çalışanı: kurulabilirlik + çevrimdışı açılış.
    Sayfa ve kod: önce ağ, olmazsa önbellek. Ürün görselleri: önce önbellek. */
-const CACHE = 'koza-v2'
+const CACHE = 'koza-v3'
 
 self.addEventListener('install', () => self.skipWaiting())
 self.addEventListener('activate', (e) => {
